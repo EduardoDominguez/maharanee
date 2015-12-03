@@ -1,0 +1,773 @@
+/*GERNERAL*/
+body
+{
+	margin-left: auto;
+	margin-right: auto;
+	background: #000;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+}
+body div
+{
+	width: 862px;
+	margin: 0;
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+a
+{
+	color: black;
+	font-weight: 900;
+}
+
+
+/*INICIO DE TOP*/
+.top
+{
+	background: #fff;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	overflow: hidden;
+}
+.top  span
+{
+	float: left;
+}
+.top img
+{
+	padding:10px;
+	margin-left: 50px;
+}
+.top span
+{
+	padding-right: 10px;
+}
+.top span p
+{
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+.top .r
+{
+	padding-top: 20px;
+	text-align: right;
+}
+ .top .l 
+{
+	padding-top: 25px;
+}
+.top .linkreg
+{
+	margin-top: 15px;
+}
+.top .linkreg a
+{
+	font-size:25px;
+}
+.top form
+{
+	float: right;
+	margin-right: 25px;
+}
+.top .carrito
+{
+	float: left;
+	width: 80px;
+	margin-left: 40px;
+	text-align:center;
+}
+.top .carrito img
+{
+	margin: 0;
+	margin-top: 30px;
+	padding-bottom: 0;	
+	text-align: left;
+
+}
+/*MENU DE TOP*/
+.top_menu
+{
+	background: #ff0004; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ff0004 1%, #ffffff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#ff0004), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ff0004 1%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ff0004 1%,#ffffff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ff0004 1%,#ffffff 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ff0004 1%,#ffffff 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0004', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+	text-align: center;
+
+}
+
+.top_menu ul
+{
+	margin:0;
+	padding: 10px 0;
+}
+.top_menu li
+{
+	display: inline;
+
+}
+.top_menu a
+{
+	text-decoration: none;
+	padding: 10px 18px;
+}
+.top_menu a:hover
+{
+	background: -moz-linear-gradient(top, rgba(0,0,0,0.01) 0%, rgba(0,0,0,0.65) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.01)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0.01) 0%,rgba(0,0,0,0.65) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(0,0,0,0.01) 0%,rgba(0,0,0,0.65) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(0,0,0,0.01) 0%,rgba(0,0,0,0.65) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(0,0,0,0.01) 0%,rgba(0,0,0,0.65) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#03000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+
+}
+
+.top_menu .topcf
+{
+	font-size:20px;
+	text-decoration:underline;
+}
+
+/*INICIO DEL FOOTER*/
+.footer
+{
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	text-align: center;
+	padding-bottom: 15px;
+	padding-top: 15px;
+
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffffff 1%, #ff0000 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#ffffff), color-stop(100%,#ff0000)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffffff 1%,#ff0000 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffffff 1%,#ff0000 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffffff 1%,#ff0000 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffffff 1%,#ff0000 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ff0000',GradientType=0 ); /* IE6-9 */
+
+	overflow: hidden;
+	text-align: center;
+}
+.footer div
+{
+	float: left;
+	width: 200px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%
+}
+.footer div img
+{
+	margin-top: 20px;
+}
+.footer div p
+{
+	text-decoration: underline;
+}
+.footer a
+{
+	text-decoration: none;
+}
+.footer a:hover
+{
+	text-decoration: underline;
+}
+.footer nav
+{
+	list-style: none;
+}
+.footer .conectate
+{
+
+}
+.footer .conectate img
+{
+	text-align: center;
+	width: 25px;
+	display: inline-block;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.footer nav li
+{
+	padding-top: 10px;
+}
+
+.bits
+{
+	text-align: center;
+}
+.bits p, .bits p a
+{
+	color:#fff;
+	font-size: .95em;
+	font-weight: 100;
+	margin-top: 10px;
+}
+
+/*INICIO DEL INDEX*/
+.index
+{
+	background-color: #fff;
+	overflow: hidden;
+	padding-top: 20px;
+}
+.index img
+{
+
+}
+.index .textvid, .index img
+{
+	float: right;
+	padding: 10px;
+	width: 830px;
+}
+.index .textvid p
+{
+	width: 310px;
+	float: left;
+	padding-right: 10px;
+}
+.index iframe
+{
+	float: right;
+	padding-top:0;
+}
+
+/*INICIO MENU DEL INDEX*/
+.menu_index
+{
+
+	width: 140px;
+	text-align: left;
+	float: left;
+	padding-top: 0px;
+	margin-right: 10px;
+}
+.menu_index p
+{
+	text-align: center;
+	font-weight: 900;
+	margin: 0;
+	margin-bottom: 3px;
+	padding: 2px;
+	text-decoration: underline;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	width: 140px;
+	background: #ff0004; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ff0004 1%, #ffffff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#ff0004), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ff0004 1%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ff0004 1%,#ffffff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ff0004 1%,#ffffff 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ff0004 1%,#ffffff 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0004', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+
+}
+.menu_index ul
+{
+	text-decoration: none;
+	list-style: none;
+	width: auto;
+	margin:0;
+	padding:0;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	width: 125px;
+}
+.menu_index li
+{
+	padding: 8px 0;
+	background: #ff0004; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ff0004 1%, #ffffff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#ff0004), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ff0004 1%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ff0004 1%,#ffffff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ff0004 1%,#ffffff 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ff0004 1%,#ffffff 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0004', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+
+}
+.menu_index a
+{
+	text-decoration: none;
+	padding-left: 20px;
+}
+.menu_index li:hover
+{
+	text-decoration: underline;
+	background: rgba(0,0,0,.3);
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.carritoMenu
+{
+	padding-left: 60px;
+}
+
+.carritoMenu img
+{
+	float: none;
+	width: 50px;
+	height: 50px;
+	padding-bottom: 0px;
+	border: black 1px solid;
+	border-radius:10px;
+}
+
+/*INICIO DE PRODUCTOS*/
+
+.productos
+{
+	background: #fff;
+	display: block;
+	overflow: hidden;
+	height: 1190px;
+	width: 852px;
+	padding-right: 10px;
+	padding-top: 20px;
+}
+.productos .menu_index
+{
+}
+.productos .lista
+{
+	width: 862px;
+	height: 90%;
+	margin-right: 30px;
+}
+.productos .lista div
+{
+	width:25%;
+	height: 30%;
+	position: relative;
+	float: left;
+
+}
+.productos .lista .recprod
+{
+	text-align: center;
+	width:90%;
+	height: 70%;
+	margin: 10px;
+	border:2px red solid;
+	border-radius:10px;
+
+}
+.productos .lista img
+{
+	margin:10px;
+	margin-top: 15px;
+	border:1px solid black;
+}
+.productos .lista .recprod p
+{
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	margin-left: 15px;
+	margin-right: 15px;	
+	font-weight: 600;
+}
+
+.productos .lista .preciodiv
+{
+	position: absolute;
+	bottom: -20px;
+	left: 0;
+}
+
+/*INICIO CONTADOR DE PAGINAS*/
+.pagina
+{
+	width: 100%;
+	margin-top: 20px;
+	text-align: center;
+}
+.pagina a
+{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+/*INICIO PRODUCTO CLIKEADO*/
+.prod_clic
+{
+	background: #fff;
+	width: 850px;
+	height: auto;
+	border-radius: 10px;
+	overflow: hidden;
+
+}
+.prod_clic .prod_img
+{
+	position: relative;
+	float:left;
+	width: 450px;
+	height: auto;
+	padding-top: 20px;
+	text-align: center;
+}
+.prod_clic .prod_img img
+{
+	margin: 10px;
+	border:1px solid black;
+}
+.prod_clic .prod_info
+{
+	position: relative;
+	float: left;
+	width: 350px;
+	height: auto;
+}
+.prod_clic .prod_info .nombre
+{
+	font-size: 2em;
+	margin-top: 50px;
+	text-align: center;
+}
+.prod_clic .prod_info .medidas, .prod_clic .prod_info .precio, .prod_clic .prod_info .caracteristicas
+.prod_clic .prod_info .cantidad
+{
+	text-align: justify;
+}
+.prod_clic .prod_info .agregar, .prod_clic .prod_info .regresar{
+	
+	margin-left: 100px;
+	margin-bottom: 30px;
+	border-radius:10px;
+	background: #000;
+	color: #fff;
+	font-weight: 900;
+	width: 150px;
+	height: 45px;
+	box-shadow: none;
+}
+
+/*ININCIO DE CARRITO*/
+.carrito
+{
+	background: #fff;
+	width: 1100px;
+	overflow: hidden;
+}
+.carrito img
+{
+	border:1px solid black;
+	border-radius:10px;
+}
+.carrito table
+{
+	border: black 1px solid;
+	border-radius:10px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+}
+.carrito table input
+{
+	width: 60px;
+}
+.carrito table td
+{
+	margin: 0;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 16px;
+	padding-bottom: 0;
+}
+.carrito table th
+{
+	padding-bottom:0;
+	margin-bottom: 0;
+}
+.carrito table .b, .carrito table .b td
+{
+	padding-top: 5px;
+	padding-bottom:0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.carrito table #total
+{
+	text-decoration: underline;
+	font-weight: 900;
+	color: #f00;
+}
+.carrito .regresar
+{
+	float: left;
+	margin-left: 180px;
+}
+.carrito .compra
+{
+	float: right;
+	margin-right: 180px;
+}
+.carrito .compra, .carrito .regresar
+{
+	margin-bottom: 30px;
+	border-radius:10px;
+	background: #000;
+	color: #fff;
+	font-weight: 900;
+	width: 150px;
+	height: 45px;
+	box-shadow: none;
+}
+.carrito .compra:hover, .carrito .regresar:hover
+{
+	border: solid white 1.5px;
+	box-shadow: 0 0 0 2px black;
+}
+
+/*EMPIEZA PANEL DE CONTROL*/
+.panel
+{
+	width: 1000px;
+	background: #fff;
+	overflow: hidden;
+}
+.panel .historial, .panel .datos
+{
+	overflow: hidden;
+	position: relative;
+	width: 840px;
+	float: right;
+	margin-top: 25px;
+}
+.panel .historial div
+{
+	position: relative;
+	float: left;
+	width: 20%;
+	overflow: hidden;
+	border:1px black solid;
+	margin: 7px;
+	border-radius:7px;
+}
+.panel .historial span p
+{
+	float: left;
+	width: 50px;
+	text-align: center;
+}
+.panel .historial span hr
+{
+	margin-right: 20px;
+	margin-left: 85px;
+	margin-bottom: 30px;
+}
+.panel p
+{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.panel img
+{
+	float: left;
+	margin: 2px;
+	border-radius: 3px;
+}
+.panel .datos span p
+{
+	float: left;
+	width: 140px;
+	text-align: center;
+	margin-right: 15px;
+}
+.panel .datos span hr
+{
+	margin-right: 30px;
+	margin-left: 85px;
+	margin-bottom: 30px;
+}
+.panel .datos p
+{
+	float: left;
+	text-align: center;
+	margin: 10px 20px;
+}
+.panel .datos div
+{
+	clear: both;
+	margin:20px 0;
+}
+.panel .datos a
+{
+}
+
+/*INICIO DE REGISTRO*/
+.registro
+{
+	width: 862px;
+	background: #fff;
+	overflow: hidden;
+	text-align: center;
+}
+.registro table
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+.registro table td
+{
+	padding:10px;
+}
+.registro div
+{
+	float: left;
+	width: auto;
+	margin: 10px 5px;
+}
+.registro div p
+{
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: auto;
+	padding: 0 20px;
+}
+.registro td p
+{
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+.registro td
+{
+	text-align: center;
+}
+.registro input
+{
+	paddings-top: 0;
+}
+.registro .sexo input
+{
+	float: left;
+	margin-top: 6px;
+	margin-left: 0px;
+}
+.registro .sexo p
+{
+	margin:0px;
+}
+
+/*FIN DE REGISTRO*/
+
+/* INICIO DE ERRORES */
+
+.errores{
+	-webkit-box-shadow: 0 0 2px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0 0 2px rgba(0,0,0,0.3);
+	-o-box-shadow: 0 0 2px rgba(0,0,0,0.3);
+	background: #4FB4E5;
+	box-shadow: 0 0 2px rgba(0,0,0,0.3);
+	color:#fff;
+	display: none;
+	font-size:14px;
+	padding:2px;
+	font-family: "SansPro-SemiboldItalic";
+}
+
+/*FIN DE ERRORES*/
+
+/*INICIO DE INICIO FACIL*/
+.inicio
+{
+	background: #fff;
+	overflow: hidden;
+}
+
+.inicio .instrucciones
+{
+	float: left;
+}
+
+
+.inicio .instrucciones .p1,.inicio .instrucciones .p2,.inicio .instrucciones .p3,.inicio .instrucciones .p4
+{
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+
+
+.inicio .instrucciones .circulo
+{
+	width: 150px;
+	height: 150px;
+	border-radius: 100px;
+	border:black 1px solid;
+
+}
+
+.inicio .instrucciones .p1 .circulo img
+{
+	display: block;
+	padding-left: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 37.5px;
+}
+
+.inicio .instrucciones .p2 .circulo img, .inicio .instrucciones .p3 .circulo img, .inicio .instrucciones .p4 .circulo img
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 37.5px;
+}
+
+/*FIN DE INICIO FACIL*/
+
+/*INICIO DE VALIDACION en contactanos.php*/
+label.error{
+	color: red;
+}
+/*FIN DE VALIDACION*/
+
+/*INICIO DE PAGO FACIL*/
+.pagofacil
+{
+	width: 862px;
+	background: #fff;
+	overflow: hidden;
+	text-align: center;
+}
+.pagofacil .transban
+{
+	margin-bottom: 30px;
+	border-radius:10px;
+	background: #000;
+	color: #fff;
+	font-weight: 900;
+	width: 200px;
+	height: 45px;
+	box-shadow: none;
+}
+.pagofacil .transban:hover
+{
+	border: solid white 1.5px;
+	box-shadow: 0 0 0 2px black;
+}
+/*FIN DE PAGO FACIL*/
